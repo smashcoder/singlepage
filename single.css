@@ -2,6 +2,7 @@
     height: 100vh;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0%;
@@ -11,9 +12,54 @@
 .mt{
     font-size: 100px;
     text-align: center;
+    font-weight: 100;
 }
 
 .hd{
     background: #000;
     color: aliceblue;
+}
+
+.sbh{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.sbh-m{
+    font-weight: 100;
+}
+
+.fm{
+    display: flex;
+    flex-direction: column;
+}
+.fm input{
+    margin: 2% 0%;
+    padding: 5%;
+}
+
+.bt{
+    margin: 2% 0%;
+    padding: 5%;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: aliceblue;
+}
+
+.bt:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.ft{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #000;
+    color: white;
+    margin: 0%;
+    padding: 5% 0%;
 }
