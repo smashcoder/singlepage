@@ -1,0 +1,19 @@
+.sec{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.mt{
+    font-size: 100px;
+    text-align: center;
+}
+
+.hd{
+    background: #000;
+    color: aliceblue;
+}
